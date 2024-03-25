@@ -26,19 +26,20 @@ const Navbar = () => {
                 About us
               </Link>
             </li>
+            
             <li>
-              <Link to='/gallery' onClick={closeMobileMenu}>
-                Gallery
+              <Link to='/blog' onClick={closeMobileMenu}>
+                Accommodations
               </Link>
             </li>
             <li>
               <Link to='/destinations' onClick={closeMobileMenu}>
-                Destinations
+                Dinning
               </Link>
             </li>
             <li>
-              <Link to='/blog' onClick={closeMobileMenu}>
-                Blog
+              <Link to='/gallery' onClick={closeMobileMenu}>
+                Gallery
               </Link>
             </li>
             <li>
