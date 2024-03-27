@@ -30,13 +30,13 @@ const Footer = () => {
                 <Link to='/about'>About us</Link>
               </li>
               <li>
+                <Link to='/accommodation'>Accommodation</Link>
+              </li>
+              <li>
+                <Link to='/dinning'>Dinning</Link>
+              </li>
+              <li>
                 <Link to='/gallery'>Gallery</Link>
-              </li>
-              <li>
-                <Link to='/destinations'>Destinations</Link>
-              </li>
-              <li>
-                <Link to='/blog'>Blog</Link>
               </li>
               <li>
                 <Link to='/testimonial'>Testimonial</Link>

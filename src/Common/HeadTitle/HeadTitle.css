@@ -31,17 +31,7 @@
   font-size: 40px;
   text-transform: capitalize;
 }
-.image-heading button {
-  background: black;
-  color: white;
-  font-weight: 400;
-  padding: 15px 30px;
-  word-spacing: 5px;
-}
-.image-heading a {
-  color: #31b675;
-  cursor: pointer;
-}
+
 .image-heading span {
   text-transform: capitalize;
   word-spacing: 30px;

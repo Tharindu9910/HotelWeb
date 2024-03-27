@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-const BlogCard = ({ item: { id, cover, title, desc, para, catgeory, date } }) => {
+const BlogCard = ({ item: { id, cover, title, desc, para} }) => {
   return (
     <>
       <div className='items'>
@@ -10,8 +10,6 @@ const BlogCard = ({ item: { id, cover, title, desc, para, catgeory, date } }) =>
         </div>
 
         <div className='category flex_space'>
-          <span>{date}</span>
-          <label>{catgeory}</label>
         </div>
 
         <div className='details'>

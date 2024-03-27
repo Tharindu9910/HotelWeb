@@ -22,7 +22,7 @@ const BlogSingle = () => {
       {item ? (
         <section className='single-page top'>
           <div className='container'>
-            <Link to='/blog' className='primary-btn back'>
+            <Link to='/accommodation' className='primary-btn back'>
               <i className='fas fa-long-arrow-alt-left'></i> Go Back
             </Link>
 
@@ -32,10 +32,10 @@ const BlogSingle = () => {
               <div className='main-content'>
                 <img src={item.cover} alt='' />
 
-                <div className='category flex_space'>
+                {/*<div className='category flex_space'>
                   <span>{item.date}</span>
                   <label>{item.catgeory}</label>
-                </div>
+      </div>*/}
 
                 <h1> {item.title} </h1>
                 <p>{item.desc}</p>
@@ -51,7 +51,7 @@ const BlogSingle = () => {
               {/* --------- main-content--------- */}
 
               {/* --------- side-content--------- */}
-              <div className='side-content'>
+              {/*<div className='side-content'>
                 <div className='category-list'>
                   <h1>Categories</h1>
                   <hr />
@@ -67,6 +67,7 @@ const BlogSingle = () => {
                   </ul>
                 </div>
               </div>
+                  */}
 
               {/* --------- side-content--------- */}
             </article>

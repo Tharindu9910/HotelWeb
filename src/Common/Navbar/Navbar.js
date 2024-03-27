@@ -28,12 +28,12 @@ const Navbar = () => {
             </li>
             
             <li>
-              <Link to='/blog' onClick={closeMobileMenu}>
+              <Link to='/accommodation' onClick={closeMobileMenu}>
                 Accommodations
               </Link>
             </li>
             <li>
-              <Link to='/destinations' onClick={closeMobileMenu}>
+              <Link to='/dinning' onClick={closeMobileMenu}>
                 Dinning
               </Link>
             </li>
