@@ -37,10 +37,11 @@ const Footer = () => {
               </li>
               <li>
                 <Link to='/gallery'>Gallery</Link>
-              </li>
+              </li>{/*
               <li>
                 <Link to='/testimonial'>Testimonial</Link>
               </li>
+               */}
               <li>
                 <Link to='/contact'>Contact Us</Link>
               </li>

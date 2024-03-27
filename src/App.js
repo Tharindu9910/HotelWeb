@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 /*-------------blog------------ */
 import Blog from "./Components/Blog/Accommodation"
 import BlogSingle from "./Components/Blog/blog-single-page/Information"
-import Testimonial from "./Components/Testimonial/Testimonial"
+// import Testimonial from "./Components/Testimonial/Testimonial"
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Common/footer/Footer"
 import Login from "./Components/login/Login"
@@ -33,7 +33,7 @@ function App() {
           {/*<Route path='/singlepage/:id' component={SinglePage} /> */}
           <Route path='/accommodation' exact component={Blog} />
           <Route path='/information/:id' component={BlogSingle} />
-          <Route path='/testimonial' component={Testimonial} />
+          {/* <Route path='/testimonial' component={Testimonial} /> */}
           <Route path='/contact' component={Contact} />
           <Route path='/sign-in' component={Login} />
           <Route path='/Register' component={Register} />
