@@ -5,7 +5,7 @@
 
 .slider img {
   width: 100%;
-  height: 100%;
+  height: 500px;
 }
 
 .control-btn .next {
@@ -53,6 +53,7 @@
   margin-right: 20px;
 }
 .slide-form .submit {
+  display: flex;
   background: #31b675;
   color: white;
 }

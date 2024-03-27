@@ -21,7 +21,7 @@ const Gallery = () => {
             {data.map((value) => {
               return (
                 <div className='box'>
-                  <img src={value.cover} alt='' />
+                  {/* <img src={value.cover} alt='' /> */}
                 </div>
               )
             })}
