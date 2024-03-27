@@ -1,9 +1,9 @@
 .image-heading {
-  background-image: url("../../../public/Images/image-heading.jpg");
+  background-image: url("../../../public/Images/webPhotos/Beach\ View.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(255, 255, 255);
   height: 30vh;
   line-height: 30vh;
   position: relative;
@@ -29,17 +29,7 @@
   font-size: 40px;
   text-transform: capitalize;
 }
-.image-heading button {
-  background: black;
-  color: white;
-  font-weight: 400;
-  padding: 15px 30px;
-  word-spacing: 5px;
-}
-.image-heading a {
-  color: #31b675;
-  cursor: pointer;
-}
+
 .image-heading span {
   text-transform: capitalize;
   word-spacing: 30px;

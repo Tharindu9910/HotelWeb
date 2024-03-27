@@ -5,54 +5,47 @@ footer {
   padding: 50px 0;
 }
 footer .grid {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 3fr 1fr 1fr;
 }
-footer h2 {
+footer .aboutUs{
   margin-bottom: 20px;
   letter-spacing: 2px;
+}
+footer .social{
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+footer .navigation{
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+
 }
 footer p {
   font-size: 13px;
   opacity: 0.6;
   font-weight: 300;
   letter-spacing: 1px;
+  text-align: justify;
 }
 footer .icon i {
-  color: black;
+  color:black;
 }
+
+
 footer ul li a {
   opacity: 0.7;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 13px;
 }
 footer ul li {
   margin-bottom: 10px;
-}
-footer .post li {
-  margin-bottom: 20px;
-  border-bottom: 1px solid rgb(63, 62, 62);
-}
-footer .post li:nth-last-child(1) {
-  border-bottom: none;
-}
-footer .post label,
-footer .post span {
-  opacity: 0.5;
-  margin-right: 10px;
-  font-size: 13px;
-  margin-bottom: 20px;
-}
-footer input {
-  background: none;
-  border: 1px solid rgb(63, 62, 62);
-  border-radius: 5px;
-  margin: 10px 0;
-}
-footer .primary-btn {
-  padding: 20px 20px;
-  border-radius: 0px;
   text-align: center;
+  list-style-type: none;
+  padding: 0;  
 }
+
 .legal {
   text-align: center;
   padding: 20px;
@@ -65,6 +58,6 @@ footer .primary-btn {
 }
 @media screen and (max-width: 768px) {
   footer .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 3fr 1fr 1fr;
   }
 }

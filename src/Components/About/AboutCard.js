@@ -6,23 +6,18 @@ const AboutCard = () => {
     <>
       <div className='aboutCard mtop flex_space'>
         <div className='row row1'>
-          <h4>About Us</h4>
-          <h1>
-            We <span>provide Solution</span> to grow your business
-          </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
-          <button className='secondary-btn'>
-            Explore More <i className='fas fa-long-arrow-alt-right'></i>
-          </button>
+          <h2>About Lagoon Deck</h2>
+          <p>Located in the picturesque coastal town of Negombo, Sri Lanka, Lagoon Deck Hotel invites you to experience unparalleled hospitality amidst breathtaking natural beauty. 
+             Nestled along the pristine shores of the Indian Ocean, our hotel offers a serene escape from the hustle and bustle of everyday life. Boasting luxurious accommodations, 
+             exquisite dining options, and world-class amenities, we ensure a truly memorable stay for every guest. </p>
+          <p>Whether you're seeking relaxation by our infinity pool overlooking the azure waters, indulging in sumptuous local cuisine at our signature restaurant, or exploring the vibrant 
+             culture and rich history of Negombo, Lagoon Deck Hotel promises an unforgettable retreat tailored to your desires. Come, immerse yourself in the tranquil ambiance and warm 
+             hospitality of our coastal haven, where every moment is crafted to perfection.</p>
+          
         </div>
         <div className='row image'>
           <img src='/images/about-img-1.jpg' alt='' />
-          <div className='control-btn'>
-            <button className='prev'>
-              <i className='fas fa-play'></i>
-            </button>
-          </div>
+          
         </div>
       </div>
     </>

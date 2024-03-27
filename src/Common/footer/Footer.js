@@ -8,22 +8,20 @@ const Footer = () => {
       <footer>
         <div className='container grid'>
           <div className='box'>
-            <h2>ABOUT US</h2>
-            <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet consectetur scing elit amet consectetur adipiscing elit sed et eletum.</p>
+            <h2 className="aboutUs">ABOUT US</h2>
+            <p>Located in the picturesque coastal town of Negombo, Sri Lanka, Lagoon Deck Hotel invites you to experience unparalleled hospitality amidst breathtaking natural beauty. 
+              Nestled along the pristine shores of the Indian Ocean, our hotel offers a serene escape from the hustle and bustle of everyday life. Boasting luxurious accommodations, exquisite dining options, and world-class amenities, we ensure a truly memorable stay for every guest. 
+              </p>
             <br />
-            <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet consectetur scing elit amet.</p>
-            <div className='icon flex_space'>
-              <i className='fab fa-facebook-f'></i>
-              <i className='fab fa-twitter'></i>
-              <i className='fab fa-linkedin'></i>
-              <i className='fab fa-instagram'></i>
-              <i className='fab fa-pinterest'></i>
-              <i className='fab fa-youtube'></i>
-            </div>
+            <p>Whether you're seeking relaxation by our infinity pool overlooking the azure waters, indulging in sumptuous local cuisine at our signature restaurant, or exploring the vibrant culture and rich history of Negombo, Lagoon Deck Hotel promises an unforgettable retreat tailored to your desires. 
+              Come, immerse yourself in the tranquil ambiance and warm hospitality of our coastal haven, where every moment is crafted to perfection.</p>
+            
           </div>
 
+          
+
           <div className='box'>
-            <h2>NAVIGATION</h2>
+            <h2 className="navigation">NAVIGATION</h2>
             <ul>
               <li>
                 <Link to='/'>Home</Link>
@@ -32,13 +30,13 @@ const Footer = () => {
                 <Link to='/about'>About us</Link>
               </li>
               <li>
+                <Link to='/accommodation'>Accommodation</Link>
+              </li>
+              <li>
+                <Link to='/dinning'>Dinning</Link>
+              </li>
+              <li>
                 <Link to='/gallery'>Gallery</Link>
-              </li>
-              <li>
-                <Link to='/destinations'>Destinations</Link>
-              </li>
-              <li>
-                <Link to='/blog'>Blog</Link>
               </li>
               <li>
                 <Link to='/testimonial'>Testimonial</Link>
@@ -49,38 +47,25 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className='box post'>
-            <h2>RECENT POSTS</h2>
-            <ul>
-              <li>
-                <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
-                <label className='fa fa-calendar-alt'></label>
-                <span>01 Oct 2020</span>
-              </li>
-              <li>
-                <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
-                <label className='fa fa-calendar-alt'></label>
-                <span>01 Oct 2020</span>
-              </li>
-              <li>
-                <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
-                <label className='fa fa-calendar-alt'></label>
-                <span>01 Oct 2020</span>
-              </li>
-            </ul>
-          </div>
 
           <div className='box'>
-            <h2>NEWSLETTER</h2>
-            <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
-
-            <input type='text' name='' id='' />
-            <input type='text' className='primary-btn' value='SUBSCRIBE' />
+            <h2 className="social">SOCIAL</h2>
+            <div style={{padding:5}} className='icon flex_space'>
+                <li><i   className='fab fa-facebook-f' ></i></li>
+                <li><i   className='fab fa-twitter'></i></li>
+                <li><i   className='fab fa-linkedin'></i></li>
+                <li><i   className='fab fa-instagram'></i></li>
+                <li><i   className='fab fa-youtube'></i></li>
+                
+              
+              
+            </div>
           </div>
+
         </div>
       </footer>
       <div className='legal'>
-        <p>© 2022 All Rights Reserved.</p>
+        <p>© 2024 All Rights Reserved.</p>
       </div>
     </>
   )
