@@ -10,7 +10,7 @@ const Works = () => {
       <section className='popular works'>
         <div className='container'>
           <div className='heading'>
-            <h1>How it Works </h1>
+             <h1>How it Works </h1>
             <div className='line'></div>
           </div>
 
@@ -18,7 +18,7 @@ const Works = () => {
             {Wdata.map((value, index) => {
               return <Card key={index} cover={value.cover} title={value.title} desc={value.desc} />
             })}
-          </div>
+          </div> 
         </div>
       </section>
     </>

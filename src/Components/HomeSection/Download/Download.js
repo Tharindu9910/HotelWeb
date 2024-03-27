@@ -1,11 +1,11 @@
 import React from "react"
-import "./download.css"
+//import "./download.css"
 
 const Download = () => {
   return (
     <>
       <section className='download top'>
-        <div className='container flex_space'>
+        {/* <div className='container flex_space'>
           <div className='row'>
             <h3>Download our app</h3>
             <h1>Wow! Get This Templete App For Your Mobile</h1>
@@ -26,7 +26,7 @@ const Download = () => {
           <div className='row row2'>
             <img src='/images/app-image-1.png' alt='' className='image' />
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   )

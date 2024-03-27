@@ -1,14 +1,16 @@
 .image-heading {
-  background-image: url("../../../public/Images/image-heading.jpg");
+  background-image: url("../../../public/Images/IMG_3569.JPG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   height: 30vh;
   line-height: 30vh;
   position: relative;
   z-index: -2;
 }
+
 .image-heading .container {
   display: flex;
   justify-content: space-between;

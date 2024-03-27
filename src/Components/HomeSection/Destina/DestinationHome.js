@@ -1,5 +1,6 @@
 import React from "react"
 import "../popular/MostPopular.css"
+import { Link } from "react-router-dom"
 //import Dcards from "../../Destinations/Dcards"
 import AllItem from "../../Destinations/AllItem"
 
@@ -9,13 +10,22 @@ const DestinationHome = () => {
       <section className='popular top'>
         <div className='full_container'>
           <div className='heading'>
-            <h1>Most Popular Destination</h1>
+            <h1>FEATURED AMENITIES ON-SITE</h1>
             <div className='line'></div>
+            <br></br>
+            <div className='content'>
+            <ul className="amenities">
+              <li>eff4;Restaurant</li>
+              <li>Outdoor Pool</li>
+              <li>Activities for Kids</li>
+              <li>Kitchen</li><br></br>
+            </ul>
+            
+          </div>
+          
           </div>
 
-          <div className='content'>
-            <AllItem />
-          </div>
+          
         </div>
       </section>
     </>

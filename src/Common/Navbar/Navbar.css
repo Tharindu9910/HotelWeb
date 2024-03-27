@@ -36,21 +36,30 @@ nav i {
   color: #fff;
 }
 .login-area {
+  margin: auto;
+  display: flex;
+  justify-content: center;
   color: white;
 }
 
 .login-area a {
+  margin: auto;
+  display: flex;
+  justify-content: center;
   font-weight: 100;
   opacity: 0.8;
-  font-size: 13px;
+  font-size: 12px;
+  text-align: justify;
   color: #fff;
 }
 .login-area i {
-  margin: 0 5px 0 15px;
-  font-size: 13px;
+  margin: 25px 10px 10px 10px;
+  font-size: 12px;
+  text-align: justify;
   color: #fff;
 }
 .login-area button {
+  margin-top: 13px;
   margin-left: 20px;
 }
 
@@ -100,12 +109,17 @@ nav i {
   }
 }
 /*--------header------------*/
+header .logo {
+  width: 80px; /* Adjust this value as needed */
+  height: auto;
+  /* Add any other styling properties */
+}
 header {
-  padding: 40px 0 20px 0;
+  padding: 10px  20px 0;
   background-color: #fff;
 }
 header .box {
-  margin: 0 0 0 30px;
+  margin: 10px 0 0 30px;
 }
 header a {
   font-size: 13px;
