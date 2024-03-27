@@ -15,9 +15,7 @@ const Cards = (props) => {
           <img src={props.imgaes} alt='Gallery Image' />
           <i className='fas fa-image' onClick={toggleModal}></i>
         </div>
-      <div className="title">
-        <h3>{props.title}</h3>
-      </div>
+      
       </div>
  
       {popup && (

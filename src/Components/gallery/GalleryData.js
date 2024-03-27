@@ -1,7 +1,6 @@
 const GalleryData = [
   {
     img: "images/webPhotos/Lagoon Deck.jpg",
-    title:"ASD",
   },
   {
     img: "images/webPhotos/Beach View.jpg",
