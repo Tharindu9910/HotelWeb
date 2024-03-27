@@ -21,6 +21,7 @@
   overflow: hidden;
   width: 380px;
   height: 252px;
+  margin: auto;
 }
 
 .gallery i {
@@ -41,7 +42,7 @@
   width: 380px;
   height: 252px;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
@@ -53,7 +54,7 @@
   width: 360px;
   height: 232px;
   z-index: 3;
-  border: 1px solid #31b675;
+  /* border: 1px solid #31b675; */
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
@@ -89,7 +90,7 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 .popup-content {
-  position: absolute;
+  position: 'absolute';
   top: 15%;
   left: 20%;
 }

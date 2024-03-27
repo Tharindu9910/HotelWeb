@@ -1,7 +1,7 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import { Link} from "react-router-dom"
 
-const BlogCard = ({ item: { id, cover, title, desc, para} }) => {
+const BlogCard = ({ item: { id, cover, title, para} }) => {
   return (
     <>
       <div className='items'>
@@ -12,12 +12,13 @@ const BlogCard = ({ item: { id, cover, title, desc, para} }) => {
         <div className='category flex_space'>
         </div>
 
-        <div className='details'>
+       <div className='details'>
           <h3>{title}</h3>
           <p>{para}</p>
         </div>
+  
 
-        <Link to={`/blogsingle/${id}`} className='blogItem-link'>
+        <Link to={`/information/${id}`} className='blogItem-link'>
           READ MORE <i className='fa fa-long-arrow-right'></i>
         </Link>
       </div>

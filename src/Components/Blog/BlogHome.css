@@ -65,28 +65,49 @@
 .category-list {
   color: black;
 }
+
 .category-list h1 {
-  font-size: 30px;
+  font-size: 50px;
+  color: rgb(53, 53, 53);
 }
+/*
 .category-list hr {
   border: none;
   border-bottom: 3px dotted #31b675;
   width: 100px;
 }
+*/
 .category-list ul {
   margin-top: 20px;
 }
 .category-list ul li {
   margin-bottom: 15px;
   transition: 0.5s;
+  color: gray;
+  text-align: justify;
+  list-style: circle;
 }
-.category-list ul li:hover {
+/*.category-list ul li:hover {
   color: #31b675;
   transform: translateX(10px);
   cursor: pointer;
 }
+*/
 .category-list i {
   color: #31b675;
   margin-right: 20px;
 }
 /*---------blog single page------*/
+
+.main-content {
+  height:700px;
+  width: 1200px;
+  position: relative;
+}
+
+.back {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
