@@ -1,6 +1,6 @@
 const Data = [
   {
-    image: "images/531602714.jpg",
+    image: "images/531602715.jpg",
   },
   {
     image: "images/slider-2.jpg",
