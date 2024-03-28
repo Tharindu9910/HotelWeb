@@ -42,11 +42,13 @@ const Navbar = () => {
                 Gallery
               </Link>
             </li>
+            {/*
             <li>
               <Link to='/testimonial' onClick={closeMobileMenu}>
                 Testimonial
               </Link>
             </li>
+  */}
             <li>
               <Link to='/contact' onClick={closeMobileMenu}>
                 Contact Us

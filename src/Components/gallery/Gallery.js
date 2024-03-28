@@ -12,7 +12,7 @@ const Gallery = () => {
       <section className='gallery top'>
         <div className='container grid'>
           {GalleryData.map((value) => {
-            return <Cards imgaes={value.img} title={value.title} />
+            return <Cards imgaes={value.img}  />
           })}
         </div>
       </section>

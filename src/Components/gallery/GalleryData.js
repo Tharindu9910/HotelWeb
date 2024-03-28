@@ -1,27 +1,22 @@
 const GalleryData = [
   {
-    img: "images/gallery-1.jpg",
-    title: "Gallery One",
+    img: "images/webPhotos/Lagoon Deck.jpg",
   },
   {
-    img: "images/gallery-2.jpg",
-    title: "Gallery Two",
+    img: "images/webPhotos/Beach View.jpg",
   },
   {
-    img: "images/gallery-3.jpg",
-    title: "Gallery Three",
+    img: "images/webPhotos/Theater View.jpg",
   },
   {
-    img: "images/gallery-4.jpg",
-    title: "Gallery Four",
+    
+    img: "images/webPhotos/Room.jpg",
   },
   {
-    img: "images/gallery-5.jpg",
-    title: "Gallery Five",
+    img: "images/webPhotos/Bathroom-1.jpg",
   },
   {
-    img: "images/gallery-6.jpg",
-    title: "Gallery Six",
+    img: "images/webPhotos/Hotel Inside-2.jpg",
   },
 ]
 
