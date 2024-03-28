@@ -1,0 +1,13 @@
+.homeabout h1 {
+    font-family: "Imbue", serif;
+    font-size: 80px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.homeabout h3{
+    text-align: center;
+}
+.homeabout p{
+    text-align: center;
+}

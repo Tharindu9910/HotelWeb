@@ -17,11 +17,13 @@ import BlogSingle from "./Components/Blog/blog-single-page/Information"
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Common/footer/Footer"
 import Login from "./Components/login/Login"
-import Register from "./Components/login/Register"
+import { AuthProvider } from "./contexts/AuthContext"
+import Signup from "./Components/login/Register"
 /*-------------blog------------ */
 
 function App() {
   return (
+    <AuthProvider>
     <>
       <Router>
         <Navbar />
@@ -36,11 +38,12 @@ function App() {
           {/* <Route path='/testimonial' component={Testimonial} /> */}
           <Route path='/contact' component={Contact} />
           <Route path='/sign-in' component={Login} />
-          <Route path='/Register' component={Register} />
+          <Route path='/Register' component={Signup} />
         </Switch>
         <Footer />
       </Router>
     </>
+    </AuthProvider>
   )
 }
 

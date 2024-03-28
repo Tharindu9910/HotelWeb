@@ -70,7 +70,7 @@ const Cards = () => {
                     <h2>{value.name}</h2>
                     <div className='boarder'></div>
                     <h3>
-                      {value.price} / <span>Per night</span>
+                      {value.price} / <span>Per Person</span>
                     </h3>
                   </div>
                 </div>
